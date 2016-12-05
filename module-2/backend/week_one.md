@@ -1,10 +1,17 @@
-## Week One - Module 2 Recap
+## Week One - Module 2 Recap - Kyle
 
 Fork this respository. Answer the questions to the best of your ability. Try to answer them with limited amount of external research. These questions cover the majority of what we've learned this week (which is a TON!). 
 
 Note: When you're done, submit a PR. 
 
 1. List the five common HTTP verbs and what the purpose is of each verb.
+1. GET: display /read a page
+   DELETE: delete from a page / database
+   POST: add to a page / database
+   PUT: edit a page / database
+   HEAD: similar to GET but without the message body (just headers)
+
+
 2. What is Sinatra?
 4. What is MVC?
 5. Why do we follow conventions when creating our actions/path names in our Sinatra routes?
