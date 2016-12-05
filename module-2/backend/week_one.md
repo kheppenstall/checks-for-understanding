@@ -13,11 +13,11 @@ PUT: edit a page / database
 HEAD: similar to GET but without the message body (just headers)
 
 
-2. What is Sinatra?
-4. What is MVC?
-5. Why do we follow conventions when creating our actions/path names in our Sinatra routes?
-6. What types of variables are accessible in our view templates without explicitly passing them?
-7. Given the following block of code, how would I pass an instance variable `count` with a value of `1` to my `index.erb` template?
+#### 2. What is Sinatra?
+#### 3. What is MVC?
+#### 4. Why do we follow conventions when creating our actions/path names in our Sinatra routes?
+#### 5. What types of variables are accessible in our view templates without explicitly passing them?
+#### 6. Given the following block of code, how would I pass an instance variable `count` with a value of `1` to my `index.erb` template?
   
   ```ruby
   get '/horses' do
