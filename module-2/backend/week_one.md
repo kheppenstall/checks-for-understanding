@@ -90,6 +90,11 @@ Note: When you're done, submit a PR.
 
 17. Let's say we have an application with restaurants. There are seven verb + path combinations necessary to provide full CRUD functionality for our restaurant application. List each of the seven combinations, and explain what each is for.
 
+  ####Read
+  `get application/:id`: Display an application.
+  `get
+  
+
 18. What's a migration? 
 
   A migration is a blueprint for an update to a database. For example, to create a table in a database we would make a migration.
