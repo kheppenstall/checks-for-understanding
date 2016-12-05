@@ -110,4 +110,4 @@ Note: When you're done, submit a PR.
 
 22. What is the difference between `#new` and `#create`?
 
-  New makes the object but does not store it in the database. Create makes the object and then stores it in the database.
+  `#new` makes the object but does not store it in the database. `#create` makes the object and then stores it in the database.
