@@ -5,11 +5,11 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 Note: When you're done, submit a PR. 
 
 1. List the five common HTTP verbs and what the purpose is of each verb.
-1. GET: display /read a page
-   DELETE: delete from a page / database
-   POST: add to a page / database
-   PUT: edit a page / database
-   HEAD: similar to GET but without the message body (just headers)
+GET: display /read a page
+DELETE: delete from a page / database
+POST: add to a page / database
+PUT: edit a page / database
+HEAD: similar to GET but without the message body (just headers)
 
 
 2. What is Sinatra?
