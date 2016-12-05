@@ -63,7 +63,8 @@ Note: When you're done, submit a PR.
 
 11. What's responsive design?
 
-
+  Design ensure a webpage adjusts sensibly when a browser changing size.
+  
 12. What is CRUD and why is it important?
 
   CRUD: Create, Read, Update, Delete
@@ -88,10 +89,25 @@ Note: When you're done, submit a PR.
   ActiveRecord
 
 17. Let's say we have an application with restaurants. There are seven verb + path combinations necessary to provide full CRUD functionality for our restaurant application. List each of the seven combinations, and explain what each is for.
+
 18. What's a migration? 
+
+  A migration is a blueprint for an update to a database. For example, to create a table in a database we would make a migration.
+  
 19. When you create a migration, does it automatically modify your database?
+
+  No. You need to `rake db:migrate`.
+  
 20. How does a model relate to a database?
+
+  A database stores instances of a model.
+  
 21. What's the difference between agile workflow and waterfall method?
+
+  Waterfall builds all the same parts of an application at the same time. So all like parts are done at the same time and then you move on to a new part. For example, make all the erb files at once.
+  
+  Agile workflow has short sprints that build functional components or features. These components or features then build into the whole application. For example, build CRUD functionality for one model and only make the erb files needed for that model.
+
 22. What is the difference between `#new` and `#create`?
 
   New makes the object but does not store it in the database. Create makes the object and then stores it in the database.
