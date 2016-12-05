@@ -4,7 +4,8 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 
 Note: When you're done, submit a PR. 
 
-1. List the five common HTTP verbs and what the purpose is of each verb.
+# 1. List the five common HTTP verbs and what the purpose is of each verb.
+
 GET: display /read a page
 DELETE: delete from a page / database
 POST: add to a page / database
@@ -39,3 +40,4 @@ HEAD: similar to GET but without the message body (just headers)
 20. How does a model relate to a database?
 21. What's the difference between agile workflow and waterfall method?
 22. What is the difference between `#new` and `#create`?
+New makes the object but does not store it in the database. Create makes the object and then stores it in the database.
