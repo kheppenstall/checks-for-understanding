@@ -91,8 +91,22 @@ Note: When you're done, submit a PR.
 17. Let's say we have an application with restaurants. There are seven verb + path combinations necessary to provide full CRUD functionality for our restaurant application. List each of the seven combinations, and explain what each is for.
 
   ####Read
-  `get application/:id`: Display an application.
-  `get
+  `get /applications/:id`: Display an application.
+  
+  ####Create
+  `get /applications/new`: Display form to make a new application.
+  
+  `post /applications`: Make the new application.
+  
+  ####Delete
+    `delete /applications/:id`: Delete an application.
+   
+   ####Update
+    `get /applications/:id/edit`: Display form to update an application.
+    
+    `put /applications/:id`: Update the application.
+  
+  
   
 
 18. What's a migration? 
