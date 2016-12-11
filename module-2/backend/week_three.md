@@ -73,7 +73,8 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
  <% end %>
  ```
 
----
+
+
 12. Why do we want to validate our models?
 
  If a model does not have any validations then it could just have an id. Sometime there are essential attributes to a model so we would want to validate that any instance of the model has that attributes. Also, if we are displaying the attributes on the page, nothing would appear for `@article.name` if the article did not have a `name`.
