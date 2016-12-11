@@ -71,7 +71,7 @@ Note: When you're done, submit a PR.
 
 10. What are the parts of an HTTP response?
 
-  An HTTP response has a head and a body. The head specifies the details of the message (VERB, protocol, length...) and the body is directions for the browser (what to display or do).
+  An HTTP response has a head and a body. The head specifies the details of the message (VERB, protocol, status code, length...) and the body is directions for the browser (what to display or do).
   
 11. Describe some techniques to make our Sinatra code more DRY. Give an example of when you would use these techniques.
 
