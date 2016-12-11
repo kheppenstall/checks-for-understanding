@@ -5,14 +5,24 @@ Fork this respository. Answer the questions to the best of your ability. Try to 
 Note: When you're done, submit a PR. 
 
 1. At a high level, what is ActiveRecord? What does it do/allow you to do?
+
+  ActiveRecord is an object relational model between SQL and Ruby. It allows us to interact with a SQL database using Ruby objects. It also provides ruby methods to query the database that are translated to SQL.
+
 2. Assume you have the following model:
 
-```ruby
-class Team << ActiveRecord::Base
-end
-```
+  ```ruby
+  class Team << ActiveRecord::Base
+  end
+  ```
 
-What are some methods you can call on `Team`? If these methods aren't defined in the class, how do you have access to them?
+  What are some methods you can call on `Team`? If these methods aren't defined in the class, how do you have access to them?
+
+  `Team.count`
+  `Team.where()`
+  `Team.order`
+  `Team.joins()`
+ 
+ Thease methods are provided by ActiveRecord through the inheritance.
 
 3. Assume that in your database, a team has the following attributes: "id", "name", owner_id". How would you find the name of a team with an id of 4? Assuming your class only included the code from question 2, how could you find the owner of the same team?
 
