@@ -34,6 +34,8 @@ Note: When you're done, submit a PR.
   
 6. At a basic level, what does cURL allow you to do?
 
+  cURL allows you to make an HTTP GET request from the command line and read the html response.
+
 7. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.
 
   There is a many to many relationship between teachers and students.
