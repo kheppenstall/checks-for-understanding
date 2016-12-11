@@ -63,7 +63,7 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
    <%= f.text_field :age %>
   </p>
   <p>
-   <%= f.label :Description %>
+   <%= f.label :Description %><br />
    <%= f.text_area :description %>
   </p>
   <p>
