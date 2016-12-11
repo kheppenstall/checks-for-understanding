@@ -44,13 +44,32 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
  
 9. What role does `form_for` play in helping us create our forms?
 
- Form_for is a method that takes an argument of a model instance that makes it easier to make forms with a params hash formatted as we'd like, and with the attributes of the model passed in.
+ `form_for` is a helper method that takes an argument of a model instance that makes it easier to make forms with a params hash formatted as we'd like, and with the attributes of the model passed in.
  
 10. How does `form_for` know where to submit the user's input?
 
  It knows to put it in the params hash. The key of the inputs is the name of the model (like `:article`) and then there are nested arrays of types specified in the enumerable like  `f.label :title`.
  
-11. Create a form using a `form_for` helper to create a new `Horse`. 
+11. Create a form using a `form_for` helper to create a new `Horse`.
 
+ ```ruby
+ <% form_for(@horse) do |f| %>
+  <p>
+   <%= f.label :Name %><br />
+   <%= f.text_field :name %>
+  </p>
+  <p>
+   <%= f.label :Age %><br />
+   <%= f.text_field :age %>
+  </p>
+  <p>
+   <%= f.label :Description %>
+   <%= f.text_area :description %>
+  </p>
+  <p>
+   <%= f.submit %>
+  </p>
+ <% end %>
+ ```
 
 12. Why do we want to validate our models?
